@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: rgb(116, 116, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quest {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: 300px;
+  border-radius: 32px;
+  display: flex;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.progressBar {
+  width: 100%;
+  height: 24px;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+  border-radius: 16px;
+}
+
+.progress {
+  width: 100%;
+  height: 24px;
+  background-color: rgb(210, 210, 210);
+  border-radius: 16px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(121, 121, 121);
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background-color: rgb(243, 243, 243);
+}
+
+.result {
+  width: 600px;
+  height: 400px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.retry {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
